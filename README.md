@@ -194,7 +194,7 @@ The Atomic theme provides:
 ### Multiple Storage Pools
 Use different storage for different components:
 ```bash
-storage="local-lvm"      # For root filesystem
+storage="local"      # For root filesystem
 template_storage="local" # For templates
 ```
 
