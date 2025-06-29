@@ -1,6 +1,6 @@
 # Proxmox Alpine LXC Creation Script
 
-This opionated script automates the creation of Alpine Linux LXC containers on Proxmox with Docker, Tailscale, and development tools pre-installed.
+This opinionated script automates the creation of Alpine Linux LXC containers on Proxmox with Docker, Tailscale, and development tools pre-installed.
 
 ## 🚀 Features
 
