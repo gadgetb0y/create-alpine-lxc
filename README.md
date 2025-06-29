@@ -106,7 +106,7 @@ nano create-lxc.conf
 ### Development Tools
 - Ansible
 - Git
-- Oh My Posh (Atomic theme)
+- Oh My Posh (modified Atomic theme)
 - JetBrains Mono Nerd Font
 - Various text editors
 
