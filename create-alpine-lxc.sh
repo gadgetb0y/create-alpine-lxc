@@ -2,6 +2,8 @@
 #
 # Proxmox Alpine LXC Creation Script
 # Creates an Alpine Linux LXC container with Docker, Tailscale, and development tools
+# Author: John Federico (https://gadgetboy.org)
+# AI Disclosure: Parts of this script were created with the help of an LLM
 #
 
 set -uo pipefail  # Removed 'e' to continue on errors
