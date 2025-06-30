@@ -26,7 +26,7 @@ This opinionated script automates the creation of Alpine Linux LXC containers on
 
 1. Copy the script to your Proxmox host:
 ```bash
-wget https://git.gadgetboy.org/Homelab/create-alpine-lxc
+wget https://git.gadgetboy.org/Homelab/create-alpine-lxc/raw/branch/main/create-alpine-lxc.sh
 chmod +x create-alpine-lxc.sh
 ```
 
