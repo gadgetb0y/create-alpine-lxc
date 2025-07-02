@@ -1,4 +1,4 @@
-# Proxmox Alpine LXC Creation Script
+# Alpine LXC Creation Script for Proxmox VE
 
 This opinionated script automates the creation of Alpine Linux LXC containers on Proxmox with Docker, Tailscale, and development tools pre-installed.
 
