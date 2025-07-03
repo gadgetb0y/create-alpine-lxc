@@ -161,7 +161,7 @@ The Atomic theme provides:
 
 ## 🔒 Security Considerations
 
-- **Change the default root password immediately**
+- **Change the default root password immediately** (or in the create-lxc.conf before script execution)
 - Configure SSH key authentication
 - Consider disabling password authentication
 - Set up nominal firewall rules
@@ -171,7 +171,7 @@ The Atomic theme provides:
 
 ### Container Won't Start
 - Check Proxmox logs: `journalctl -u pve-container@<VMID>`
-- Verify storage has enough space
+- Make sure suitable storage has been allocated
 - Check if VMID is already in use
 
 ### Network Issues
@@ -218,7 +218,7 @@ This script is provided as-is without warranty. Use at your own risk.
 
 ## 🙏 Acknowledgments
 
-- [Proxmox team](https://www.proxmox.com/en/about/about-us/company)
+- [Proxmox Team](https://www.proxmox.com/en/about/about-us/company)
 - [Alpine Linux](https://www.alpinelinux.org/about/) maintainers
 - [Jan De Dobbeleer](https://github.com/sponsors/JanDeDobbeleer), creator of [Oh My Posh](https://github.com/JanDeDobbeleer/oh-my-posh)
 
