@@ -171,7 +171,7 @@ The Atomic theme provides:
 
 ### Container Won't Start
 - Check Proxmox logs: `journalctl -u pve-container@<VMID>`
-- Make sure suitable storage has been allocated
+- Check storage allocation
 - Check if VMID is already in use
 
 ### Network Issues
